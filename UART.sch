@@ -1,0 +1,346 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L max235cpg:max235cpg U?
+U 1 1 62499068
+P 7150 1950
+F 0 "U?" H 8450 2337 60  0000 C CNN
+F 1 "max235cpg" H 8450 2231 60  0000 C CNN
+F 2 "max235cpg" H 8450 2190 60  0001 C CNN
+F 3 "" H 7150 1950 60  0000 C CNN
+	1    7150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DSUB-9:DSUB-9 J?
+U 1 1 6249A35C
+P 8150 3450
+F 0 "J?" H 8978 3103 60  0000 L CNN
+F 1 "DSUB-9" H 8978 2997 60  0000 L CNN
+F 2 "DSUB-9" H 8750 3090 60  0001 C CNN
+F 3 "" H 8150 3450 60  0000 C CNN
+	1    8150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6249AAEF
+P 4200 3800
+F 0 "#PWR?" H 4200 3550 50  0001 C CNN
+F 1 "GND" V 4205 3672 50  0000 R CNN
+F 2 "" H 4200 3800 50  0001 C CNN
+F 3 "" H 4200 3800 50  0001 C CNN
+	1    4200 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6249B12C
+P 4200 3900
+F 0 "#PWR?" H 4200 3650 50  0001 C CNN
+F 1 "GND" V 4205 3772 50  0000 R CNN
+F 2 "" H 4200 3900 50  0001 C CNN
+F 3 "" H 4200 3900 50  0001 C CNN
+	1    4200 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6249B47B
+P 5200 4600
+F 0 "#PWR?" H 5200 4350 50  0001 C CNN
+F 1 "GND" H 5205 4427 50  0000 C CNN
+F 2 "" H 5200 4600 50  0001 C CNN
+F 3 "" H 5200 4600 50  0001 C CNN
+	1    5200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6249B71A
+P 5200 1200
+F 0 "#PWR?" H 5200 1050 50  0001 C CNN
+F 1 "+5V" V 5215 1328 50  0000 L CNN
+F 2 "" H 5200 1200 50  0001 C CNN
+F 3 "" H 5200 1200 50  0001 C CNN
+	1    5200 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6249C757
+P 4200 4100
+F 0 "#PWR?" H 4200 3850 50  0001 C CNN
+F 1 "GND" V 4205 3972 50  0000 R CNN
+F 2 "" H 4200 4100 50  0001 C CNN
+F 3 "" H 4200 4100 50  0001 C CNN
+	1    4200 4100
+	0    1    1    0   
+$EndComp
+Entry Wire Line
+	3900 1400 4000 1500
+Entry Wire Line
+	3900 1500 4000 1600
+Entry Wire Line
+	3900 1600 4000 1700
+Entry Wire Line
+	3900 1700 4000 1800
+Entry Wire Line
+	3900 1800 4000 1900
+Entry Wire Line
+	3900 1900 4000 2000
+Entry Wire Line
+	3900 2000 4000 2100
+Entry Wire Line
+	3900 2100 4000 2200
+Wire Wire Line
+	4200 1500 4000 1500
+Wire Wire Line
+	4200 1600 4000 1600
+Wire Wire Line
+	4200 1700 4000 1700
+Wire Wire Line
+	4200 1800 4000 1800
+Wire Wire Line
+	4200 1900 4000 1900
+Wire Wire Line
+	4200 2000 4000 2000
+Wire Wire Line
+	4200 2100 4000 2100
+Wire Wire Line
+	4200 2200 4000 2200
+Wire Wire Line
+	4200 2400 4000 2400
+Wire Wire Line
+	6200 4100 6200 4300
+$Comp
+L Interface_UART:16550 U?
+U 1 1 62498893
+P 5200 2900
+F 0 "U?" H 5200 4781 50  0000 C CNN
+F 1 "16550" H 5200 4690 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm" H 5200 2900 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/pc16550d.pdf" H 5200 2900 50  0001 C CNN
+	1    5200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2500 4000 2500
+Wire Wire Line
+	4200 2600 4000 2600
+Entry Wire Line
+	3900 2300 4000 2400
+Entry Wire Line
+	3900 2400 4000 2500
+Entry Wire Line
+	3900 2500 4000 2600
+Text Label 4050 1500 0    50   ~ 0
+D8
+Text Label 4050 1600 0    50   ~ 0
+D9
+Text Label 4050 1700 0    50   ~ 0
+D10
+Text Label 4050 1800 0    50   ~ 0
+D11
+Text Label 4050 1900 0    50   ~ 0
+D12
+Text Label 4050 2000 0    50   ~ 0
+D13
+Text Label 4050 2100 0    50   ~ 0
+D14
+Text Label 4050 2200 0    50   ~ 0
+D15
+Text Label 4050 2400 0    50   ~ 0
+A1
+Text Label 4050 2500 0    50   ~ 0
+A2
+Text Label 4050 2600 0    50   ~ 0
+A3
+Wire Wire Line
+	4200 2700 4200 2800
+$Comp
+L Device:R R?
+U 1 1 624A138D
+P 4050 2800
+F 0 "R?" V 4050 2800 50  0000 C CNN
+F 1 "R" V 3934 2800 50  0000 C CNN
+F 2 "" V 3980 2800 50  0001 C CNN
+F 3 "~" H 4050 2800 50  0001 C CNN
+	1    4050 2800
+	0    1    1    0   
+$EndComp
+Connection ~ 4200 2800
+$Comp
+L power:+5V #PWR?
+U 1 1 624A1ABC
+P 3900 2800
+F 0 "#PWR?" H 3900 2650 50  0001 C CNN
+F 1 "+5V" V 3915 2928 50  0000 L CNN
+F 2 "" H 3900 2800 50  0001 C CNN
+F 3 "" H 3900 2800 50  0001 C CNN
+	1    3900 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Logic_Programmable:PAL16L8 U?
+U 1 1 624A209D
+P 3000 2700
+F 0 "U?" H 3000 3581 50  0000 C CNN
+F 1 "PAL16L8" H 3000 3490 50  0000 C CNN
+F 2 "" H 3000 2700 50  0001 C CNN
+F 3 "" H 3000 2700 50  0001 C CNN
+	1    3000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2900 4200 2900
+NoConn ~ 3500 2800
+Wire Wire Line
+	2500 2200 2350 2200
+Wire Wire Line
+	2500 2300 2350 2300
+Wire Wire Line
+	2500 2400 2350 2400
+Wire Wire Line
+	2500 2500 2350 2500
+Wire Wire Line
+	2500 2600 2350 2600
+Wire Wire Line
+	2500 2700 2350 2700
+Wire Wire Line
+	2500 2800 2350 2800
+Wire Wire Line
+	2500 2900 2350 2900
+Wire Wire Line
+	2500 3000 2350 3000
+Wire Wire Line
+	3500 2200 3600 2200
+Wire Wire Line
+	3500 2300 3600 2300
+Wire Wire Line
+	3500 2400 3600 2400
+NoConn ~ 3500 2600
+NoConn ~ 3500 2700
+Entry Wire Line
+	3600 2200 3700 2300
+Entry Wire Line
+	3600 2300 3700 2400
+Entry Wire Line
+	3600 2400 3700 2500
+Entry Wire Line
+	2250 2100 2350 2200
+Entry Wire Line
+	2250 2200 2350 2300
+Entry Wire Line
+	2250 2300 2350 2400
+Entry Wire Line
+	2250 2400 2350 2500
+Entry Wire Line
+	2250 2500 2350 2600
+Entry Wire Line
+	2250 2600 2350 2700
+Entry Wire Line
+	2250 2700 2350 2800
+Entry Wire Line
+	2250 2800 2350 2900
+Entry Wire Line
+	2250 2900 2350 3000
+Wire Bus Line
+	3700 2300 3900 2300
+Wire Bus Line
+	3700 2300 3700 1400
+Wire Bus Line
+	3700 1400 2250 1400
+Connection ~ 3700 2300
+Text Label 2400 2200 0    50   ~ 0
+A0
+Text Label 2400 2300 0    50   ~ 0
+A4
+Text Label 2400 2400 0    50   ~ 0
+A5
+Text Label 2400 2500 0    50   ~ 0
+A6
+Text Label 2400 2600 0    50   ~ 0
+A7
+Text Label 2400 2700 0    50   ~ 0
+A8
+Text Label 2400 2800 0    50   ~ 0
+A9
+Text Label 2400 2900 0    50   ~ 0
+A10
+Text Label 2400 3000 0    50   ~ 0
+A11
+Text Label 3500 2200 0    50   ~ 0
+A12
+Text Label 3500 2300 0    50   ~ 0
+A13
+Text Label 3500 2400 0    50   ~ 0
+A14
+Text Label 3500 2500 0    50   ~ 0
+A15
+Entry Wire Line
+	3600 2500 3700 2600
+Wire Wire Line
+	3500 2500 3600 2500
+Wire Wire Line
+	2150 3100 2150 1500
+Wire Wire Line
+	2150 1500 2000 1500
+Wire Wire Line
+	2150 3100 2500 3100
+Wire Bus Line
+	2250 1400 2000 1400
+Connection ~ 2250 1400
+Wire Bus Line
+	2000 1300 3900 1300
+$Comp
+L Device:Crystal Y1
+U 1 1 624BC21C
+P 4200 3250
+F 0 "Y1" V 4250 2900 50  0000 L CNN
+F 1 "Crystal" V 4150 2800 50  0000 L CNN
+F 2 "" H 4200 3250 50  0001 C CNN
+F 3 "~" H 4200 3250 50  0001 C CNN
+	1    4200 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 3700 2050 3700
+Wire Wire Line
+	2050 3700 2050 1600
+Wire Wire Line
+	2050 1600 2000 1600
+Wire Wire Line
+	4200 4000 1950 4000
+Wire Wire Line
+	1950 4000 1950 1700
+Wire Wire Line
+	4200 4200 1850 4200
+Wire Wire Line
+	1850 4200 1850 1800
+Wire Wire Line
+	4200 4300 1750 4300
+Wire Wire Line
+	1750 4300 1750 1900
+Wire Bus Line
+	3900 2300 3900 2500
+Wire Bus Line
+	3700 2300 3700 2600
+Wire Bus Line
+	3900 1300 3900 2100
+Wire Bus Line
+	2250 1400 2250 2900
+$EndSCHEMATC
