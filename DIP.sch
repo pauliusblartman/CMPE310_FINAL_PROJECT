@@ -1,0 +1,74 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS244 U18
+U 1 1 625CBDFF
+P 3150 2600
+F 0 "U18" H 3150 3581 50  0000 C CNN
+F 1 "74LS244" H 3150 3490 50  0000 C CNN
+F 2 "" H 3150 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 3150 2600 50  0001 C CNN
+	1    3150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x08 SW21
+U 1 1 625CCCFB
+P 2350 2500
+F 0 "SW21" H 2350 3167 50  0000 C CNN
+F 1 "SW_DIP_x08" H 2350 3076 50  0000 C CNN
+F 2 "" H 2350 2500 50  0001 C CNN
+F 3 "~" H 2350 2500 50  0001 C CNN
+	1    2350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0170
+U 1 1 625D01BC
+P 2650 3100
+F 0 "#PWR0170" H 2650 2850 50  0001 C CNN
+F 1 "GND" H 2655 2927 50  0000 C CNN
+F 2 "" H 2650 3100 50  0001 C CNN
+F 3 "" H 2650 3100 50  0001 C CNN
+	1    2650 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3000 2650 3100
+Connection ~ 2650 3100
+$Comp
+L power:GND #PWR0171
+U 1 1 625D0523
+P 3150 3400
+F 0 "#PWR0171" H 3150 3150 50  0001 C CNN
+F 1 "GND" H 3155 3227 50  0000 C CNN
+F 2 "" H 3150 3400 50  0001 C CNN
+F 3 "" H 3150 3400 50  0001 C CNN
+	1    3150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0172
+U 1 1 625D07D2
+P 3150 1800
+F 0 "#PWR0172" H 3150 1650 50  0001 C CNN
+F 1 "+5V" V 3165 1928 50  0000 L CNN
+F 2 "" H 3150 1800 50  0001 C CNN
+F 3 "" H 3150 1800 50  0001 C CNN
+	1    3150 1800
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
