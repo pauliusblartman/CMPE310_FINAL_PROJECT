@@ -482,13 +482,9 @@ Wire Wire Line
 Wire Wire Line
 	4500 5500 5100 5500
 Connection ~ 5100 5500
-Wire Wire Line
-	3900 5400 3900 5500
 Connection ~ 4500 5500
 Wire Wire Line
 	3250 1150 3050 1150
-Wire Wire Line
-	3900 5500 4500 5500
 Wire Wire Line
 	5300 1450 7400 1450
 Wire Wire Line
@@ -914,9 +910,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS540" H 2200 5800 50  0001 C CNN
 	1    2200 5800
 	0    -1   -1   0   
 $EndComp
-Connection ~ 3900 5500
-Wire Wire Line
-	3050 5500 3900 5500
 Wire Wire Line
 	2400 5300 3000 5300
 Wire Wire Line
@@ -1394,10 +1387,17 @@ $EndComp
 Wire Wire Line
 	2600 6300 2700 6300
 Connection ~ 2700 6300
+Wire Wire Line
+	3050 5500 3900 5500
+Wire Wire Line
+	3900 5400 3900 5500
 Wire Bus Line
 	2850 4100 2850 4900
 Wire Bus Line
 	2800 2250 2800 3000
 Wire Bus Line
 	1400 3100 1400 4900
+Connection ~ 3900 5500
+Wire Wire Line
+	3900 5500 4500 5500
 $EndSCHEMATC
