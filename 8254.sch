@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Timer:8254 U19
+L Timer:8254 U20
 U 1 1 61B9DC78
 P 4950 3450
-F 0 "U19" H 4950 4631 50  0000 C CNN
+F 0 "U20" H 4950 4631 50  0000 C CNN
 F 1 "8254" H 4950 4540 50  0000 C CNN
 F 2 "Package_DIP:DIP-24_W15.24mm" H 5000 3700 50  0001 C CNN
 F 3 "http://www.scs.stanford.edu/10wi-cs140/pintos/specs/8254.pdf" H 4500 4350 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://www.scs.stanford.edu/10wi-cs140/pintos/specs/8254.pdf" H 4500 4350 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0112
+L power:+5V #PWR087
 U 1 1 61BA7924
 P 5250 2450
-F 0 "#PWR0112" H 5250 2300 50  0001 C CNN
+F 0 "#PWR087" H 5250 2300 50  0001 C CNN
 F 1 "+5V" H 5265 2623 50  0000 C CNN
 F 2 "" H 5250 2450 50  0001 C CNN
 F 3 "" H 5250 2450 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "" H 5250 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0113
+L power:GND #PWR086
 U 1 1 61BAD092
 P 4950 4450
-F 0 "#PWR0113" H 4950 4200 50  0001 C CNN
+F 0 "#PWR086" H 4950 4200 50  0001 C CNN
 F 1 "GND" H 4955 4277 50  0000 C CNN
 F 2 "" H 4950 4450 50  0001 C CNN
 F 3 "" H 4950 4450 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "" H 4950 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Logic_Programmable:PAL16L8 U18
+L Logic_Programmable:PAL16L8 U19
 U 1 1 61BB0CE0
 P 2550 3350
-F 0 "U18" H 2550 4231 50  0000 C CNN
+F 0 "U19" H 2550 4231 50  0000 C CNN
 F 1 "PAL16L8" H 2550 4140 50  0000 C CNN
 F 2 "" H 2550 3350 50  0001 C CNN
 F 3 "" H 2550 3350 50  0001 C CNN
@@ -98,9 +98,9 @@ Wire Wire Line
 Wire Wire Line
 	1850 3750 2050 3750
 Text HLabel 1150 1700 0    50   Input ~ 0
-Data
+D[0...15]
 Text HLabel 1150 1850 0    50   Input ~ 0
-Address
+A[0...19]
 Wire Bus Line
 	1150 1700 4000 1700
 Entry Wire Line
@@ -182,10 +182,10 @@ Connection ~ 5700 2850
 Wire Wire Line
 	5700 2850 5700 3350
 $Comp
-L power:+5V #PWR0114
+L power:+5V #PWR088
 U 1 1 61BF17C5
 P 5800 2250
-F 0 "#PWR0114" H 5800 2100 50  0001 C CNN
+F 0 "#PWR088" H 5800 2100 50  0001 C CNN
 F 1 "+5V" H 5815 2423 50  0000 C CNN
 F 2 "" H 5800 2250 50  0001 C CNN
 F 3 "" H 5800 2250 50  0001 C CNN
@@ -274,10 +274,10 @@ Wire Wire Line
 Wire Wire Line
 	3850 4150 4350 4150
 $Comp
-L Device:C C6
+L Device:C C15
 U 1 1 61C215F3
 P 5100 2450
-F 0 "C6" V 4848 2450 50  0000 C CNN
+F 0 "C15" V 4848 2450 50  0000 C CNN
 F 1 ".0000001" V 4939 2450 50  0000 C CNN
 F 2 "" H 5138 2300 50  0001 C CNN
 F 3 "~" H 5100 2450 50  0001 C CNN
