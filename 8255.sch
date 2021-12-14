@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 3 9
+Sheet 3 12
 Title ""
 Date ""
 Rev ""
@@ -820,18 +820,8 @@ Text Label 2700 2400 0    50   ~ 0
 A3
 Text Label 2700 2300 0    50   ~ 0
 A0
-NoConn ~ 2800 2100
-NoConn ~ 2800 2200
 Wire Wire Line
 	1350 3800 1400 3800
-Text HLabel 1100 1500 0    50   BiDi ~ 0
-BHE'
-Wire Wire Line
-	1400 2600 1400 1500
-Wire Wire Line
-	1400 1500 1100 1500
-Wire Wire Line
-	1400 2600 1700 2600
 Text Label 1300 5000 0    50   ~ 0
 D8
 Text Label 1300 5100 0    50   ~ 0
@@ -920,10 +910,8 @@ Entry Wire Line
 	5700 4600 5800 4700
 Text Label 3600 5000 0    50   ~ 0
 D0
-Text HLabel 1000 2100 0    50   BiDi ~ 0
+Text HLabel 1100 2100 0    50   BiDi ~ 0
 D[0...15]
-Wire Bus Line
-	1100 2100 1000 2100
 $Comp
 L Device:C_Small C17
 U 1 1 61D1B884
@@ -993,8 +981,22 @@ F 3 "" H 6400 3500 50  0001 C CNN
 	1    6400 3500
 	0    1    1    0   
 $EndComp
+Entry Wire Line
+	1500 2500 1600 2600
+Wire Wire Line
+	1600 2600 1700 2600
+Entry Wire Line
+	2800 2100 2900 2200
+Entry Wire Line
+	2800 2200 2900 2300
+Text Label 1600 2600 0    50   ~ 0
+A13
+Text Label 2700 2200 0    50   ~ 0
+A14
+Text Label 2700 2100 0    50   ~ 0
+A15
 Wire Bus Line
-	2900 2400 2900 3400
+	2900 2200 2900 3400
 Wire Bus Line
 	1200 4900 1200 5600
 Wire Bus Line

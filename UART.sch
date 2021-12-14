@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 9
+Sheet 5 12
 Title ""
 Date ""
 Rev ""
@@ -267,17 +267,6 @@ Wire Wire Line
 Wire Bus Line
 	2250 1400 1650 1400
 Connection ~ 2250 1400
-$Comp
-L Device:Crystal Y1
-U 1 1 624BC21C
-P 4200 3250
-F 0 "Y1" V 4250 2900 50  0000 L CNN
-F 1 "Crystal" V 4150 2800 50  0000 L CNN
-F 2 "" H 4200 3250 50  0001 C CNN
-F 3 "~" H 4200 3250 50  0001 C CNN
-	1    4200 3250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4200 3700 2050 3700
 Wire Wire Line
@@ -585,14 +574,6 @@ F 3 "" H 7550 1300 50  0001 C CNN
 	1    7550 1300
 	-1   0    0    1   
 $EndComp
-Wire Bus Line
-	3900 2300 3900 2500
-Wire Bus Line
-	3700 2300 3700 2600
-Wire Bus Line
-	2250 1400 2250 2900
-Wire Bus Line
-	3900 1300 3900 2100
 $Comp
 L power:+5V #PWR065
 U 1 1 61C2C387
@@ -605,4 +586,24 @@ F 3 "" H 7350 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 7350 1300
+NoConn ~ 5150 2000
+NoConn ~ 4200 3400
+Wire Wire Line
+	4200 3100 4100 3100
+Wire Wire Line
+	4100 3100 4100 3600
+Wire Wire Line
+	4100 3600 1650 3600
+Wire Wire Line
+	1650 3600 1650 2000
+Wire Bus Line
+	3900 2300 3900 2500
+Wire Bus Line
+	3700 2300 3700 2600
+Wire Bus Line
+	2250 1400 2250 2900
+Wire Bus Line
+	3900 1300 3900 2100
+Text HLabel 1650 2000 0    50   Input ~ 0
+Clk
 $EndSCHEMATC
