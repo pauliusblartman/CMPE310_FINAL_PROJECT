@@ -194,8 +194,6 @@ Wire Wire Line
 	3450 3850 4400 3850
 Connection ~ 3450 2250
 Wire Wire Line
-	4400 4800 4300 4800
-Wire Wire Line
 	3450 4800 3450 3950
 Connection ~ 3450 3850
 $Comp
@@ -266,11 +264,8 @@ S 4400 5100 1450 800
 U 61E46856
 F0 "LCD" 50
 F1 "LCD.sch" 50
-F2 "WR'" I L 4400 5200 50 
-F3 "RD'" I L 4400 5300 50 
-F4 "RESET" I L 4400 5400 50 
-F5 "D[0...15]" I L 4400 5500 50 
-F6 "A[0...19]" I L 4400 5600 50 
+F2 "D[0...15]" I L 4400 5200 50 
+F3 "A[0...19]" I L 4400 5300 50 
 $EndSheet
 $Sheet
 S 4400 6100 1000 950 
@@ -343,42 +338,19 @@ $EndSheet
 Wire Bus Line
 	3950 4400 3950 4950
 Wire Bus Line
-	3950 5500 4400 5500
+	3950 5200 4400 5200
 Connection ~ 3950 4400
 Wire Bus Line
-	4400 5600 4050 5600
-Wire Bus Line
-	4050 5600 4050 5050
+	4400 5300 4050 5300
 Connection ~ 4050 4300
-Wire Wire Line
-	4400 5400 4300 5400
-Wire Wire Line
-	4300 5400 4300 4800
-Connection ~ 4300 4800
-Wire Wire Line
-	4300 4800 3450 4800
-Wire Wire Line
-	4400 5300 4250 5300
-Wire Wire Line
-	4250 5300 4250 5250
 Connection ~ 4250 4600
-Wire Wire Line
-	4400 5200 4200 5200
-Wire Wire Line
-	4200 5200 4200 4500
 Connection ~ 4200 4500
 Wire Wire Line
 	4200 4500 4400 4500
 Wire Bus Line
-	3950 5500 3950 6200
-Wire Bus Line
 	3950 6200 4400 6200
-Connection ~ 3950 5500
 Wire Bus Line
 	4400 6300 4050 6300
-Wire Bus Line
-	4050 6300 4050 5600
-Connection ~ 4050 5600
 Wire Wire Line
 	3650 4700 3650 6500
 Connection ~ 3650 4700
@@ -407,8 +379,6 @@ Wire Bus Line
 	3200 4950 3950 4950
 Connection ~ 3950 4950
 Wire Bus Line
-	3950 4950 3950 5500
-Wire Bus Line
 	3200 5050 4050 5050
 Connection ~ 4050 5050
 Wire Bus Line
@@ -419,15 +389,9 @@ Wire Wire Line
 	3350 5150 3350 3850
 Connection ~ 3350 3850
 Wire Wire Line
-	3200 5250 4250 5250
-Connection ~ 4250 5250
-Wire Wire Line
 	4250 5250 4250 4600
 Wire Wire Line
 	3200 5350 4200 5350
-Wire Wire Line
-	4200 5350 4200 5200
-Connection ~ 4200 5200
 $Sheet
 S 2100 6100 1100 600 
 U 61FA3C73
@@ -569,4 +533,20 @@ F 3 "" H 5950 950 50  0001 C CNN
 	1    5950 950 
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4200 4500 4200 5350
+Wire Wire Line
+	3450 4800 4400 4800
+Connection ~ 3950 5200
+Wire Bus Line
+	3950 5200 3950 6200
+Connection ~ 4050 5300
+Wire Bus Line
+	4050 5300 4050 6300
+Wire Bus Line
+	3950 4950 3950 5200
+Wire Wire Line
+	3200 5250 4250 5250
+Wire Bus Line
+	4050 5050 4050 5300
 $EndSCHEMATC
