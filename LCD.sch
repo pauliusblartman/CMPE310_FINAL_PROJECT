@@ -487,4 +487,24 @@ Wire Bus Line
 	4650 4000 4650 6000
 Wire Bus Line
 	2250 3000 2250 4750
+Text Label 4000 3700 0    50   ~ 0
+A[1]
+Text Label 4000 3800 0    50   ~ 0
+A[2]
+Text Label 4750 4100 0    50   ~ 0
+D[0]
+Text Label 4750 4200 0    50   ~ 0
+D[1]
+Text Label 4750 4300 0    50   ~ 0
+D[2]
+Text Label 4750 4400 0    50   ~ 0
+D[3]
+Text Label 4750 4500 0    50   ~ 0
+D[4]
+Text Label 4750 4600 0    50   ~ 0
+D[5]
+Text Label 4750 4700 0    50   ~ 0
+D[6]
+Text Label 4750 4800 0    50   ~ 0
+D[7]
 $EndSCHEMATC
