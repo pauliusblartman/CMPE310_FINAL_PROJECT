@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 5 13
 Title ""
 Date ""
 Rev ""
@@ -596,6 +596,8 @@ Wire Wire Line
 	4100 3600 1650 3600
 Wire Wire Line
 	1650 3600 1650 2000
+Text HLabel 1650 2000 0    50   Input ~ 0
+Clk
 Wire Bus Line
 	3900 2300 3900 2500
 Wire Bus Line
@@ -604,6 +606,15 @@ Wire Bus Line
 	2250 1400 2250 2900
 Wire Bus Line
 	3900 1300 3900 2100
-Text HLabel 1650 2000 0    50   Input ~ 0
-Clk
+$Comp
+L power:+5V #PWR?
+U 1 1 61FC357D
+P 3900 2800
+F 0 "#PWR?" H 3900 2650 50  0001 C CNN
+F 1 "+5V" V 3915 2928 50  0000 L CNN
+F 2 "" H 3900 2800 50  0001 C CNN
+F 3 "" H 3900 2800 50  0001 C CNN
+	1    3900 2800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

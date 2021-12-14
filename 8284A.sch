@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 12
+Sheet 10 13
 Title ""
 Date ""
 Rev ""
@@ -100,7 +100,6 @@ Connection ~ 4900 3750
 Wire Wire Line
 	4900 3750 4900 4050
 NoConn ~ 4950 3250
-NoConn ~ 6350 2750
 NoConn ~ 4950 2750
 NoConn ~ 4950 2850
 NoConn ~ 4950 2950
@@ -202,4 +201,8 @@ F 3 "" H 5450 2250 50  0001 C CNN
 	1    5450 2250
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	6350 2750 6550 2750
+Text HLabel 6550 2750 2    50   Output ~ 0
+Ready
 $EndSCHEMATC
