@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 13
+Sheet 9 13
 Title ""
 Date ""
 Rev ""
@@ -617,30 +617,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 1350 8950 1350
 Wire Wire Line
-	8650 2050 9100 2050
-Wire Wire Line
-	8650 1850 9550 1850
-Wire Wire Line
-	8700 5300 9100 5300
-Wire Wire Line
-	8700 5100 9550 5100
-Wire Bus Line
-	4200 2350 4200 2950
-Wire Bus Line
-	6050 2150 6050 3550
-Wire Bus Line
-	6050 3550 6050 5600
-Wire Bus Line
-	9000 2250 9000 3550
-Wire Bus Line
-	9050 1450 9050 3450
-Wire Bus Line
-	6000 3450 6000 5300
-Wire Bus Line
-	6000 1050 6000 2350
-Wire Bus Line
-	9000 3550 9000 5900
-Wire Wire Line
 	8700 1050 8700 3050
 Wire Wire Line
 	8650 1150 9600 1150
@@ -668,4 +644,28 @@ Wire Wire Line
 	8750 4300 8750 6300
 Wire Wire Line
 	8700 4600 8900 4600
+Wire Wire Line
+	8650 2050 9100 2050
+Wire Wire Line
+	8650 1850 9550 1850
+Wire Wire Line
+	8700 5300 9100 5300
+Wire Wire Line
+	8700 5100 9550 5100
+Wire Bus Line
+	4200 2350 4200 2950
+Wire Bus Line
+	6050 2150 6050 3550
+Wire Bus Line
+	6050 3550 6050 5600
+Wire Bus Line
+	9000 2250 9000 3550
+Wire Bus Line
+	9050 1450 9050 3450
+Wire Bus Line
+	6000 3450 6000 5300
+Wire Bus Line
+	6000 1050 6000 2350
+Wire Bus Line
+	9000 3550 9000 5900
 $EndSCHEMATC
